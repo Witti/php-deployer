@@ -1,8 +1,8 @@
-FROM php:7-alpine
+FROM php:8-alpine
 
 LABEL maintainer="hello@witti.dev"
 
-ENV DEPLOYER_VERSION=6.8.0
+ENV DEPLOYER_VERSION=7.0.0-beta.21
 
 RUN apk update --no-cache \
     && apk add --no-cache \
